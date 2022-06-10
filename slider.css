@@ -1,0 +1,140 @@
+.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img{
+    width: 100%;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: 130px;
+    margin-left: 380px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.manual-btn{
+    border: 2px solid rgb(122, 122, 122);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #fff;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 530px;
+    display: flex;
+    justify-content: center;
+    margin-left: 380px;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #fff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #fff;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #fff;
+}
+
+.cell_app img{
+    width: 600px;
+    height: 300px;
+    margin-right: 160px;
+    margin-top: 420px;
+}
+
+.mao_cell img{
+    width: 500px;
+    height: 450px;
+    margin-left: 260px;
+    margin-top: 270px;
+}
+
+.forma{
+    position: relative;
+    height: 550px;
+    width: 550px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: -250px;
+    margin-top: -190px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.text img{
+    position: absolute;
+    width: 450px;
+    margin-top: -50px;
+    margin-left: -130px;
+}
