@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
 #nav-bar{
+    font-family: 'Kanit';
+    
     background-color: #1aaa39;
     height: 60px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -9,11 +13,7 @@
     align-items: center;
     justify-content:space-around;
     color: #125C07;
-    font-size: 18px;
-}
-
-.cabecalho li{
-    margin-top: 5px;
+    font-size: 20px;
 }
 
 .cabecalho img{
@@ -114,12 +114,6 @@ header nav img:hover{
 .valores p{
     font-size: 30px;
     margin-bottom: -5px;
-}
-
-@keyframes play {
-    50%{
-        transform: rotate(10deg);
-    }
 }
 
 #diferencial{

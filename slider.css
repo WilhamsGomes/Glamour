@@ -35,8 +35,6 @@
     justify-content: center;
 }
 
-
-
 .manual-btn{
     border: 2px solid rgb(122, 122, 122);
     padding: 5px;
@@ -64,8 +62,6 @@
 #radio3:checked ~ .first{
     margin-left: -50%;
 }
-
-
 
 .navigation-auto div{
     border: 2px solid #20a6ff;
@@ -119,11 +115,11 @@
     position: relative;
     height: 550px;
     width: 550px;
-    background-color: #fff;
+    background-image: linear-gradient(to right, #1aaa39, #58ec41);
     border-radius: 50%;
     margin-left: -250px;
     margin-top: -300px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .text img{
@@ -143,4 +139,35 @@
 
 .text-slider{
     width: 800px;
+}
+
+#form_circule{
+    position: absolute;
+    margin-left: -1200px;
+    margin-top: 160px;
+    width:150px;
+    height:150px;
+    animation: circule 4s ease infinite;
+}
+
+@keyframes circule {
+    50%{
+        margin-left: -1100px;
+    }
+}
+
+#form_retangulo{
+    position: absolute;
+    height: 150px;
+    width: 40px;
+    background-color: #125C07;
+    color: #125C07;
+    margin-top: 50px;
+    animation: play 2s ease infinite;
+}
+
+@keyframes play {
+    50%{
+        margin-top: 70px;
+    }
 }
