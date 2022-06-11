@@ -65,9 +65,7 @@
     margin-left: -50%;
 }
 
-#radio4:checked ~ .first{
-    margin-left: -75%;
-}
+
 
 .navigation-auto div{
     border: 2px solid #20a6ff;
@@ -103,10 +101,6 @@
     background-color: #fff;
 }
 
-#radio4:checked ~ .navigation-auto .auto-btn4{
-    background-color: #fff;
-}
-
 .cell_app img{
     width: 600px;
     height: 300px;
@@ -128,7 +122,7 @@
     background-color: #fff;
     border-radius: 50%;
     margin-left: -250px;
-    margin-top: -190px;
+    margin-top: -300px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
@@ -137,4 +131,16 @@
     width: 450px;
     margin-top: -50px;
     margin-left: -130px;
+}
+
+.modelo img{
+    margin-top: 150px;
+    margin-left: -560px;
+    margin-right: 150px;
+    width: 400px;
+    height: 580px;
+}
+
+.text-slider{
+    width: 800px;
 }
